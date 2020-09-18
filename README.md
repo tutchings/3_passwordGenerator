@@ -13,9 +13,9 @@ SO THAT I can create a strong password that provides greater security
 ```
 ## Link to Live Project and Project Image
 
-![Screenshot of Final Project](https://github.com/tutchings/2_responsivePortfolio/blob/master/img/responsivePortfolioScreenShot.PNG)
+![Screenshot of Final Project](https://github.com/tutchings/3_passwordGenerator/blob/master/assets/completedProjectImage.PNG)
 
-[Deployed Website Link](https://tutchings.github.io/2_responsivePortfolio/)
+[Deployed Website Link](https://tutchings.github.io/3_passwordGenerator/)
 
 
 ## Acceptance Criteria
