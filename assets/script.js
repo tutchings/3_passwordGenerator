@@ -59,11 +59,22 @@ function writePassword() {
   pwCharacterOptions = [];
   passwordLength = 0;
 
+  //sets all character prompts to false
+  var confirmLower = false;
+  var confirmUpper = false;
+  var confirmNumbers = false;
+  var confirmSpecialCharacters = false;
+  
+
   //asks user what character types to include in password
-  var confirmLower = confirm("Include Lower Case Characters in Password?");
-  var confirmUpper = confirm("Include Upper Case Characters in Password?");
-  var confirmNumbers = confirm("Include Number Characters in Password?");
-  var confirmSpecialCharacters = confirm("Include Special Characters in Password?");
+  //continue to prompt user for character types until at least one is selected
+  while (confirmLower === false && confirmUpper === false && confirmNumbers === false && confirmSpecialCharacters === false){
+    confirmLower = confirm("Include Lower Case Characters in Password?");
+    confirmUpper = confirm("Include Upper Case Characters in Password?");
+    confirmNumbers = confirm("Include Number Characters in Password?");
+    confirmSpecialCharacters = confirm("Include Special Characters in Password?");
+  }
+
 
   //asks user for length of password
   //length must be between 8 and 128 characters
