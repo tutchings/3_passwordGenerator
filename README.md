@@ -13,8 +13,9 @@ SO THAT I can create a strong password that provides greater security
 ```
 ## Link to Live Project and Project Image
 
+![Screenshot of Final Project](https://github.com/tutchings/2_responsivePortfolio/blob/master/img/responsivePortfolioScreenShot.PNG)
 
-
+[Deployed Website Link](https://tutchings.github.io/2_responsivePortfolio/)
 
 
 ## Acceptance Criteria
@@ -37,9 +38,6 @@ WHEN the password is generated
 THEN the password is either displayed in an alert or written to the page
 ```
 
-The following image demonstrates the application functionality:
-
-![password generator demo](./Assets/03-javascript-homework-demo.png)
 
 ## Review
 
